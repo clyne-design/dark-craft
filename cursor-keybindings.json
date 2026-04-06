@@ -1,0 +1,36 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "cmd+alt+l",
+        "command": "editor.action.formatSelection",
+        "when": "editorHasSelection && editorTextFocus"
+      },
+      {
+        "key": "cmd+alt+l",
+        "command": "editor.action.formatDocument",
+        "when": "!editorHasSelection && editorTextFocus"
+      },
+      {
+        "key": "cmd+1",
+        "command": "workbench.view.explorer"
+      },
+      {
+        "key": "cmd+k",
+        "command": "workbench.view.scm"
+      },
+      {
+        "key": "cmd+1",
+        "command": "workbench.files.action.showActiveFileInExplorer",
+        "when": "editorTextFocus"
+      },
+      {
+        "key": "cmd+down",
+        "command": "git.openFile",
+        "when": "config.git.enabled && isInDiffEditor && !git.missing && gitOpenRepositoryCount != '0' && resourceScheme =~ /^git$|^file$/"
+      },
+      {
+        "key": "cmd+d",
+        "command": "editor.action.copyLinesDownAction",
+        "when": "editorTextFocus"
+      }
+]
