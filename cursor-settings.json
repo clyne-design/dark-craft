@@ -18,7 +18,7 @@
     "editor.selectionHighlight": false,
     "editor.occurrencesHighlight": "off",
     "workbench.preferredDarkColorTheme": "One Dark Pro Darker",
-    "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-dark",
+    "workbench.iconTheme": "flow-deep",
     "workbench.tree.indent": 21,
     "files.insertFinalNewline": true,
     "explorer.fileNesting.patterns": {
@@ -642,6 +642,10 @@
     "diffEditor.ignoreTrimWhitespace": true,
     "files.autoSave": "onFocusChange",
     "git.enableSmartCommit": true,
+    "cursor.cmdk.useThemedDiffBackground2": false,
+    "editor.scrollbar.verticalScrollbarSize": 6,
+    "editor.scrollbar.horizontalScrollbarSize": 6,
+    "explorer.decorations.badges": false,
     "workbench.editor.enablePreview": false,
-    "cursor.cmdk.useThemedDiffBackground2": false
+    "window.autoDetectColorScheme": false
 }
